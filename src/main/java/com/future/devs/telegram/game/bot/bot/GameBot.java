@@ -28,7 +28,7 @@ public class GameBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "shopping_winner_bot";
+        return "uzb_abiturent_bot";
     }
 
     public synchronized void sendMessage(String chatId, String msg){
@@ -46,6 +46,6 @@ public class GameBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "937267989:AAGZeWrdYc_1XPWAr6P_B9uGiZpSN6iohKI";
+        return "";
     }
 }
