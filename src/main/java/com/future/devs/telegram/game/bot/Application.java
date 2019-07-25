@@ -1,7 +1,9 @@
 package com.future.devs.telegram.game.bot;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.core.env.Environment;
 import org.telegram.telegrambots.ApiContextInitializer;
 
 @SpringBootApplication
@@ -10,6 +12,7 @@ public class Application {
 	public static void main(String[] args) {
 		ApiContextInitializer.init();
 		SpringApplication.run(Application.class, args);
+
 	}
 
 }
