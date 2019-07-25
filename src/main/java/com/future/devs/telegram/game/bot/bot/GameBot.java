@@ -55,7 +55,7 @@ public class GameBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-//        token = getSytemEnv("token");
+        token = getSytemEnv("token");
         logger.info("TOKEN: {}",token);
         return token;
     }
